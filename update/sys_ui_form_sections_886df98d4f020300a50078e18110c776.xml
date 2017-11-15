@@ -109,7 +109,7 @@
             <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_144597_cgatm_cgapplication" name="x_144597_cgatm_cgapplication" sys_domain="global" view="Default view">886df98d4f020300a50078e18110c776</sys_ui_form>
-            <sys_ui_section caption="Business Capabilities" display_value="Business Capabilities" name="x_144597_cgatm_cgapplication" sys_domain="global" view="Default view">4c6df98d4f020300a50078e18110c775</sys_ui_section>
+            <sys_ui_section caption="Critical Business Hours" display_value="Critical Business Hours" name="x_144597_cgatm_cgapplication" sys_domain="global" view="Default view">4c6df98d4f020300a50078e18110c775</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-11-06 22:46:25</sys_updated_on>
         </sys_ui_form_section>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="ATMApplicationList" max_length="40" name="x_144597_cgatm_atmapplicationlist" type="collection">
+        <element attributes="import_attribute_name=Application Name,edge_encryption_enabled=true" label="Application Name" max_length="56" name="u_application_name" type="string"/>
+        <element attributes="import_attribute_name=Application Steward,edge_encryption_enabled=true" label="Application Steward" max_length="40" name="u_application_steward" type="string"/>
+        <element attributes="import_attribute_name=Application Portfolio Steward,edge_encryption_enabled=true" label="Application Portfolio Steward" max_length="40" name="u_application__tfolio_steward" type="string"/>
+        <element attributes="import_attribute_name=Business Capability,edge_encryption_enabled=true" label="Business Capability" max_length="592" name="u_business_capability" type="string"/>
+        <element attributes="import_attribute_name=CG Application Id,edge_encryption_enabled=true" label="CG Application Id" max_length="40" name="u_cg_application_id" type="string"/>
+        <element attributes="import_attribute_name=CurrentPhase,edge_encryption_enabled=true" label="CurrentPhase" max_length="40" name="u_currentphase" type="string"/>
+        <element attributes="import_attribute_name=Description,edge_encryption_enabled=true" label="Description" max_length="626" name="u_description" type="string"/>
+    </element>
+</database>

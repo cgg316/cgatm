@@ -81,6 +81,10 @@
         <element label="CG Application ID" max_length="16" name="u_cg_application_id" type="string"/>
         <element choice="1" label="CG Application Lifecycle" max_length="64" name="u_cg_application_lifecycle" type="string">
             <choice>
+                <element label="Divest" sequence="0" value="Divest"/>
+                <element label="Invest" sequence="0" value="Invest"/>
+                <element label="Maintain" sequence="0" value="Maintain"/>
+                <element label="Unclassified" sequence="0" value="Unclassified"/>
                 <element label="Planning" sequence="100" value="pl"/>
                 <element label="Implementation" sequence="200" value="im"/>
                 <element label="Production - Invest" sequence="300" value="pi"/>

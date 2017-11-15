@@ -6,6 +6,82 @@
             <element>u_cg_application_lifecycle</element>
             <hint/>
             <inactive>false</inactive>
+            <label>Divest</label>
+            <language>en</language>
+            <name>x_144597_cgatm_cgapplication</name>
+            <sequence>0</sequence>
+            <sys_created_by>CGG</sys_created_by>
+            <sys_created_on>2017-11-15 22:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5ef8f288dbe287809471dd3b5e961959</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CGG</sys_updated_by>
+            <sys_updated_on>2017-11-15 22:18:59</sys_updated_on>
+            <value>Divest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cg_application_lifecycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Invest</label>
+            <language>en</language>
+            <name>x_144597_cgatm_cgapplication</name>
+            <sequence>0</sequence>
+            <sys_created_by>CGG</sys_created_by>
+            <sys_created_on>2017-11-15 22:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>52f8f288dbe287809471dd3b5e961961</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CGG</sys_updated_by>
+            <sys_updated_on>2017-11-15 22:18:59</sys_updated_on>
+            <value>Invest</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cg_application_lifecycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Maintain</label>
+            <language>en</language>
+            <name>x_144597_cgatm_cgapplication</name>
+            <sequence>0</sequence>
+            <sys_created_by>CGG</sys_created_by>
+            <sys_created_on>2017-11-15 22:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d2f8f288dbe287809471dd3b5e961949</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CGG</sys_updated_by>
+            <sys_updated_on>2017-11-15 22:18:59</sys_updated_on>
+            <value>Maintain</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cg_application_lifecycle</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Unclassified</label>
+            <language>en</language>
+            <name>x_144597_cgatm_cgapplication</name>
+            <sequence>0</sequence>
+            <sys_created_by>CGG</sys_created_by>
+            <sys_created_on>2017-11-15 22:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>daf8f288dbe287809471dd3b5e961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>CGG</sys_updated_by>
+            <sys_updated_on>2017-11-15 22:18:59</sys_updated_on>
+            <value>Unclassified</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cg_application_lifecycle</element>
+            <hint/>
+            <inactive>false</inactive>
             <label>Planning</label>
             <language>en</language>
             <name>x_144597_cgatm_cgapplication</name>
