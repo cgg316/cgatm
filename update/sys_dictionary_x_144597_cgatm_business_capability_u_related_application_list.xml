@@ -47,15 +47,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-11-06 21:01:15</sys_created_on>
-        <sys_id>4ce0101d4f120300a50078e18110c71f</sys_id>
+        <sys_id>c6ef0648db6287809471dd3b5e961956</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Related Application List</sys_name>
         <sys_package display_value="CGATM" source="x_144597_cgatm">a9fda5854f020300a50078e18110c7e9</sys_package>
         <sys_policy/>
         <sys_scope display_value="CGATM">a9fda5854f020300a50078e18110c7e9</sys_scope>
         <sys_update_name>sys_dictionary_x_144597_cgatm_business_capability_u_related_application_list</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-06 21:01:15</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2017-11-15 19:19:48</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
