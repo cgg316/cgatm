@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="Business Capability" max_length="40" name="x_144597_cgatm_business_capability" sizeclass="9" type="collection">
+        <element label="Parent" max_length="32" name="parent" reference="x_144597_cgatm_business_capability" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Related Application List" max_length="1024" name="u_related_application_list" reference="x_144597_cgatm_cgapplication" type="glide_list"/>
+    </element>
+</database>

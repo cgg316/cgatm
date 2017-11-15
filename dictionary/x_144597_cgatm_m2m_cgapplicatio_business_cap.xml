@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Cgatm M2m Cgapplicatio Business Cap" max_length="40" name="x_144597_cgatm_m2m_cgapplicatio_business_cap" type="collection">
+        <element label="Business Capability" max_length="32" name="business_capability" reference="x_144597_cgatm_business_capability" type="reference"/>
+        <element label="CGApplication" max_length="32" name="cgapplication" reference="x_144597_cgatm_cgapplication" type="reference"/>
+        <index name="index">
+            <element name="business_capability"/>
+        </index>
+        <index name="index2">
+            <element name="cgapplication"/>
+        </index>
+    </element>
+</database>

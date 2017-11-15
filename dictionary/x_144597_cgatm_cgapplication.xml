@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="cmdb_ci" label="CGApplication" max_length="40" name="x_144597_cgatm_cgapplication" sizeclass="1" type="collection">
+        <element label="1st Escalation" max_length="32" name="u_1st_escalation" reference="sys_user_group" type="reference"/>
+        <element label="2nd Escalation" max_length="32" name="u_2nd_escalation" reference="sys_user_group" type="reference"/>
+        <element label="Business Capability" max_length="32" name="u_business_capability" reference="x_144597_cgatm_business_capability" type="reference"/>
+        <element label="Business Start" max_length="40" name="u_business_start" type="glide_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,tree_picker=true" label="Capability Supported" max_length="1024" name="u_capability_supported" reference="x_144597_cgatm_business_capability" type="glide_list"/>
+        <element label="CG Application Business Owner" max_length="32" name="u_cg_application_business_owner" reference="sys_user" type="reference"/>
+        <element label="CG Application ID" max_length="16" name="u_cg_application_id" type="string"/>
+        <element choice="1" label="CG Application Lifecycle" max_length="64" name="u_cg_application_lifecycle" type="string">
+            <choice>
+                <element label="Planning" sequence="100" value="pl"/>
+                <element label="Implementation" sequence="200" value="im"/>
+                <element label="Production - Invest" sequence="300" value="pi"/>
+                <element label="Production - Maintain" sequence="400" value="pm"/>
+                <element label="Production - Divest" sequence="500" value="pd"/>
+                <element label="Retired" sequence="600" value="re"/>
+            </choice>
+        </element>
+        <element label="CG Application Portfolio Steward" max_length="32" name="u_cg_application_portfolio_steward" reference="sys_user" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="CG Application SME List" max_length="1024" name="u_cg_application_sme_list" reference="sys_user" type="glide_list"/>
+        <element label="CG Application Steward" max_length="32" name="u_cg_application_steward" reference="sys_user" type="reference"/>
+        <element label="Critical Business Hours" max_length="40" name="u_critical_business_hours" type="glide_duration"/>
+    </element>
+</database>
