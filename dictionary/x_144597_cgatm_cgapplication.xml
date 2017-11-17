@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="cmdb_ci" label="CGApplication" max_length="40" name="x_144597_cgatm_cgapplication" type="collection">
+    <element extends="cmdb_ci" label="CGApplication" max_length="40" name="x_144597_cgatm_cgapplication" sizeclass="214" type="collection">
         <element attributes="readonly_clickthrough=true" label="Asset" max_length="32" name="asset" read_only="true" reference="alm_asset" reference_cascade_rule="delete" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Asset tag" max_length="40" name="asset_tag" type="string"/>
         <element label="Assigned" max_length="40" name="assigned" type="glide_date_time"/>
@@ -79,7 +79,7 @@
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true,tree_picker=true" label="Capability Supported" max_length="1024" name="u_capability_supported" reference="x_144597_cgatm_business_capability" type="glide_list"/>
         <element label="CG Application Business Owner" max_length="32" name="u_cg_application_business_owner" reference="sys_user" type="reference"/>
         <element label="CG Application ID" max_length="16" name="u_cg_application_id" type="string"/>
-        <element choice="1" label="CG Application Lifecycle" max_length="64" name="u_cg_application_lifecycle" type="string">
+        <element choice="1" label="CG Application Lifecycle" max_length="64" name="u_cg_application_lifecycle" read_only="true" type="string">
             <choice>
                 <element label="Divest" sequence="0" value="Divest"/>
                 <element label="Invest" sequence="0" value="Invest"/>
